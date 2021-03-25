@@ -75,9 +75,9 @@ hr{
 }
 
 .navigation{
- margin:10px auto 0 auto;
+ margin:10px auto 0 ;
  background-color:#e4fbff ;   
- width: 100%;
+ width: 25%;
  height:8%;
  position: fixed;
  top:0;
@@ -121,6 +121,9 @@ border: 0px;
 
 
 }
+.skill{
+    position: relative;
+}
 /*******************************************NAVIGATION OPTIONS**************************************/
 
 
@@ -154,6 +157,11 @@ border: 0px;
     color:#66BFBF;
     font-size: 1.5em;
     font-family: 'Karla', sans-serif;
+}
+.menu{
+    width: 50%;
+    position: absolute;
+    left:650px
 }
 
 /******************************************FOR THE NAVIGATION**********************************************/
