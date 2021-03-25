@@ -12,9 +12,9 @@ h1{
 }
 
 h2{
-    font-size: 2em;
+    font-size: 3.5em;
     font-family:'Parisienne', cursive;
-    margin: auto;
+    margin:0 0 0 300px;
     width: 35%;
     color:#66BFBF;
 }
@@ -34,6 +34,12 @@ h4{
     margin:10px auto 0 auto;
     color: #66BFBF;
 }
+hr{
+    border-width: 1px;
+    width:50%;
+    border-style: solid;
+    border-color: #66BFBF;
+  }
 
 
 /***********************************************MAIN PAGE*******************************************/
@@ -44,6 +50,7 @@ h4{
     text-align: center;
 }
 .pictures{
+    width:50%;
     position: relative;
     text-align: center;
     padding-bottom: 500px;
@@ -51,7 +58,7 @@ h4{
 
 .top-cloud{
     position:absolute;
-    right:260px;
+    right:15%;
     top:0px;
 
 }
@@ -59,14 +66,23 @@ h4{
 
 .bottom-cloud{
     position: absolute;
-    left:230px;
+    left:35%;
 }
 .mountain{
     position: absolute;
-    left:390px;
-    top:50px;
+    left:55%;
+    top:10%;
 }
 
+.navigation{
+ margin:10px auto 0 auto;
+ background-color:#e4fbff ;   
+ width: 100%;
+ height:8%;
+ position: fixed;
+ top:0;
+ left:50px;
+}
 
 
 /**************************************************HORIZONTAL*****************************************/
@@ -84,36 +100,29 @@ border: 0px;
     margin: 50px auto 160px auto;
 }
 
-hr{
-    border-width: 1px;
-    width:35%;
-    border-style: solid;
-    border-color: #66BFBF;
-  }
 
 /*************************************************SKILL**********************************************/
 .space{
-    margin:15px auto;
-    font-size: 30px;
-    margin:100px 0;
     color: #66BFBF;
+    font-size: 1.8em;
 }
 
-table {
-    margin:17px auto;
+.externaltable{
+    margin:90px auto;
     border-collapse: separate;
-    border-spacing:60px 20px;
+    border-spacing:150px 20px;
+
   }
-/*******************************************NAVIGATION OPTIONS**************************************/
-.navigation{
-    margin:10px auto 0 auto;
- background-color:#e4fbff ;   
- width: 100%;
- height: 50px;
- position: fixed;
- top:0;
- left:50px;
+.internaltable{
+
+
+    border-collapse: separate;
+    border-spacing:10px 15px;
+
+
 }
+/*******************************************NAVIGATION OPTIONS**************************************/
+
 
 .about{
     position: absolute;
