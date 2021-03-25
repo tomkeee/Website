@@ -1,11 +1,11 @@
 /*********************************************BASIC SETTINGS*********************************************/
 body{
-    margin:5px 8px 20px 8px;
+    margin:5px 8px 0px 8px;
     background-color: #e4fbff;
     
 }
 h1{
-    font-size:5em;
+    font-size:7em;
     font-family: 'Parisienne', cursive;
     margin:20px auto 10px auto;
     color: #66BFBF;
@@ -31,7 +31,7 @@ h4{
     margin-top: 0px;
     font-family: 'Karla', sans-serif;
     font-size: 25px;
-    margin:10 auto;
+    margin:10px auto 0 auto;
     color: #66BFBF;
 }
 
@@ -39,26 +39,34 @@ h4{
 /***********************************************MAIN PAGE*******************************************/
 .top{
     margin-top: 130px;
-    padding-top: 50px;
+    padding-top: 130px;
     position: relative;
     text-align: center;
 }
 .pictures{
     position: relative;
     text-align: center;
+    padding-bottom: 500px;
 }
 
 .top-cloud{
     position:absolute;
-    right:330px;
+    right:260px;
     top:0px;
 
 }
 
+
 .bottom-cloud{
     position: absolute;
-    left:380px;
+    left:230px;
 }
+.mountain{
+    position: absolute;
+    left:390px;
+    top:50px;
+}
+
 
 
 /**************************************************HORIZONTAL*****************************************/
@@ -73,7 +81,7 @@ border: 0px;
   }
 
 .hori{
-    margin: 80px auto;
+    margin: 50px auto 160px auto;
 }
 
 hr{
@@ -182,8 +190,18 @@ a[href^="mailto"]::before {
   a[href="https://pl.linkedin.com"]::before {
     content: "💼 ";
   }
-  a[href="https://twitter.com/?lang=pl"]::before {
-    content: "📰 ";
+  a[href="https://twitter.com/ScierskiTomasz"]::before {
+    content: "🌎 ";
+  }
+  a[href="https://github.com/tomkeee"]::before{
+      content:"🐈"
   }
   
-  
+
+  .iconsource{
+    text-decoration: none;
+    color:#66BFBF;
+    margin-bottom:0px;
+    padding-top: 200px;
+    font-family: 'Parisienne', cursive;
+  }
